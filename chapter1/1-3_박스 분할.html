@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>박스 분할</title>
+  <link rel="stylesheet" href="./grid/grid-guide.css">
+
+  <style>
+    .boxA::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .box1 {
+      float: left;
+      width: 100%;
+    }
+
+    .box2 {
+      float: left;
+      width: 100%;
+      margin-right: -300px;
+      padding-right: 300px;
+      box-sizing: border-box;
+    }
+
+    .box3 {
+      float: left;
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1">Box1</div>
+  <div class="boxA">
+    <div class="box2">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis maxime veniam cum inventore totam soluta ex
+        earum optio voluptatum laudantium, nihil quisquam aperiam fuga asperiores a ut aspernatur explicabo. Maiores
+        est, cum natus vitae soluta laudantium tempora modi excepturi delectus dicta iusto minima reprehenderit
+        exercitationem animi odio vero amet expedita. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+        assumenda deleniti ea asperiores architecto repellendus illo maiores cum quas quibusdam eaque iste vitae
+        similique officia dolores aperiam eos reiciendis consequatur, delectus voluptatem, est nihil? Excepturi
+        perspiciatis deleniti reiciendis sequi quia ad, animi molestiae doloribus quis commodi repellendus eligendi
+        facilis mollitia libero necessitatibus, facere assumenda minima quibusdam similique reprehenderit dicta!
+        Voluptate, corporis quam ipsum suscipit ut, accusamus unde, sapiente ad doloremque deserunt numquam placeat
+        nobis! Commodi quam necessitatibus, iusto aut a vitae fugit doloribus ex impedit alias obcaecati esse nulla
+        saepe? Eligendi delectus magni adipisci, quaerat ipsa qui praesentium nisi totam? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Dolorem, aliquam! Praesentium officia laudantium nisi, autem temporibus ducimus
+        iure at, ipsam fugiat tempore nam id quisquam nobis qui nulla sit debitis odio aliquid. Nesciunt veritatis
+        assumenda aliquam provident. Commodi officiis similique neque soluta illum quam corrupti eveniet hic cumque
+        tempore! Magnam assumenda blanditiis delectus vitae quibusdam non officia repudiandae debitis adipisci impedit
+        laboriosam natus velit obcaecati sequi, incidunt nihil necessitatibus eius at saepe eum. Asperiores expedita
+        doloremque id quisquam quod eum obcaecati praesentium, dolor quia magni dolores consequatur ipsa totam harum,
+        possimus ea. Mollitia dolore cumque, nemo ipsum eos at illum.niet hic cumque tempore! Magnam assumenda
+        blanditiis delectus vitae quibusdam non officia repudiandae debitis adipisci impedit laboriosam natus velit
+        obcaecati sequi, incidunt nihil necessitatibus eius at saepe eum. Asperiores expedita doloremque id quisquam
+        quod eum obcaecati praesentium, dolor quia magni dolores consequatur ipsa totam harum, possimus ea. Mollitia
+        dolore cumque, nemo ipsum eos at illum</p>
+    </div>
+    <div class="box3">Box3</div>
+  </div>
+  <div class="box4">Box4</div>
+
+
+</body>
+
+</html>

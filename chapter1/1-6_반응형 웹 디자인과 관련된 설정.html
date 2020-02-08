@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>박스 정렬 순서 지정</title>
+  <link rel="stylesheet" href="./grid/grid-guide-narabi.css">
+
+  <style>
+    @media (min-width:768px) {
+      .boxA::after{content:"";display: block;clear: both;}
+      .box2{float: left;width: 70%;}
+      .box2{float: left;width: 30%;}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="boxA">
+    <div class="box1">BOX1</div>
+    <div class="box2">BOX2</div>
+    <div class="box3">BOX3</div>
+  </div>
+</body>
+
+</html>
